@@ -10,10 +10,10 @@ package: https://github.com/arielhernandezmusa/capacitor-biometric-auth
 ## Setup
 Don't for get to run ```npx cap sync``` before doing the next steps.
 
-ionic g page login
-ionic g page inside
-ionic g page locked
-ionic g service access
+* `ionic g page login`
+* `ionic g page inside`
+* `ionic g page locked`
+* `ionic g service access`
 
 ionic build
 npx cap add ios
