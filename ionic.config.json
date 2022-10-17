@@ -1,0 +1,7 @@
+{
+  "name": "BiometricAuth",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

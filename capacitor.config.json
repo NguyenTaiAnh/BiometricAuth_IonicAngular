@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "BiometricAuth",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
