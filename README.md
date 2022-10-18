@@ -47,9 +47,6 @@ protected void onCreate(Bundle savedInstanceState) {
 ```diff
     <key>NSFaceIDUsageDescription</key>
 	<string>Use Fade ID to unlock your app</string>
-```diff
-
-
 ```
 
 ### Coding
@@ -107,7 +104,7 @@ protected void onCreate(Bundle savedInstanceState) {
             })
         }
     }
-```diff
+```
 
 > login.page.html
 
@@ -115,7 +112,7 @@ protected void onCreate(Bundle savedInstanceState) {
     <ion-content>
         <ion-button expand="full" routerLink="/inside" >Login</ion-button>
     </ion-content>
-```diff
+```
 
 > inside.page.ts
 
@@ -139,7 +136,7 @@ protected void onCreate(Bundle savedInstanceState) {
             this.accessService.resetLogoutTimer();
         }
     }
-```diff
+```
 
 > inside.page.html
 
@@ -154,7 +151,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
         </ion-toolbar>
     </ion-footer>
-```diff
+```
 
 > inside.page.html
 
@@ -169,7 +166,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
         </ion-toolbar>
     </ion-footer>
-```diff
+```
 
 > locked.page.ts
 
@@ -229,7 +226,7 @@ protected void onCreate(Bundle savedInstanceState) {
         }
 
     }
-```diff
+```
 
 > locked.page.html
 
@@ -252,7 +249,7 @@ protected void onCreate(Bundle savedInstanceState) {
     </ion-button>
   </div>
 </ion-content>
-```diff
+```
 
 > locked.page.scss
 
@@ -267,4 +264,4 @@ ion-input{
     border-radius: 20px;
     --padding-start:20px;
 }
-```diff
+```
